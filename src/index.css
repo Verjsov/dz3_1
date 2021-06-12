@@ -7,6 +7,23 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon {
+  filter: invert(37%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+  height: 3rem;
+  position: absolute;
+}
+
+.cat {
+  filter: invert(37%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+  height: 20vmin;
+  pointer-events: none;
+}
+.box {
+  transition:top 2s,
+  left 2s;
+
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
